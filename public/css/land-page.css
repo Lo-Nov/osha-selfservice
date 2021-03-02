@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** {
+  transition: all ease-in 0.5s;
+  box-sizing: border-box;
+}*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#landingPage {
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.login-create ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.login-create li {
+  margin: .5em;
+}
+
+.login-create li:nth-child(2) {
+  background: #ffdc01;
+  color: green;
+  border-radius: 60px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.login-create {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.county-logo img {
+  height: 30vh;
+  margin-bottom: 20px;
+}
+
+.source-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #f8f3f036;
+  width: 100%;
+  height: 100vh;
+  flex-flow: column;
+  position: relative;
+}
+
+.source-container img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.source-container .source {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  background: #ffffff4f;
+  flex-flow: column;
+  margin: 7px;
+  color: #007bff;
+  border: 1px solid #ffffff4f;
+}
+
+.source-container .source:hover {
+  background: white;
+  /*border: 1px solid #007bff;*/
+  border-color: #007bff;
+}
+
+.the-sources {
+  max-width: 1160px;
+}
+
+.source-container h2, .source-container h3 {
+  margin-top: 10px;
+  text-align: center;
+  color: #3e4b56;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.subicon h2 {
+  color: white;
+}
+
+.source-container h3 {
+  /*	font-size: 20px;*/
+  margin-top: 16px;
+  margin: 16px;
+  font-size: 14px;
+}
+
+.source-container h3 a {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.source-container .row {
+  justify-content: center !important;
+}
+
+.source {
+  cursor: pointer;
+}
+
+.inactive {
+  cursor: not-allowed;
+}
+
+.inactive p {
+  color: slategray;
+}
+
+.source-container .inactive:hover {
+  color: slategray;
+  border: none;
+}
+
+.source-container .hr {
+  width: 3%;
+  height: 4px;
+  background: black;
+}
+
+.pop-up {
+  padding: 30px;
+  background: #6c6c6c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 76.36px 15.64px rgba(22, 24, 24, 0.2);
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  background: #464646;
+  color: lightgray;
+  width: 250px;
+  transition: left .5s;
+}
+
+.left {
+  left: -100%;
+  transition: left .5s;
+}
+
+.pop-up p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pop-up a {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pop-up a:hover {
+  text-decoration: underline;
+}
+
+.pop-up img {
+  height: 30px;
+  /* margin-left: 16px; */
+  margin-bottom: 0px;
+  color: white;
+  animation-fill-mode: white;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+#closeOptions {
+  position: fixed;
+  right: 1em;
+  top: 0.4em;
+  font-size: 3em;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.sub-link-container {
+  background: url("../img/bg/nairobi.gif");
+}
+
+@media (max-width: 425px) {
+  .bg-img {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .county-logo img {
+    height: 25vh;
+  }
+  .source-container {
+    height: auto;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+html, body {
+    width: 250mm;
+    height: 353mm;
+}
+.content-container {
+    background: url("img/Group 31.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.serial {
+/*
+    font-family: 'Aldrich', sans-serif !important;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+*/
+
+}
+.title-font {
+    font-family: "Flamante SemiSlab Medium", "Flamante SemiSlab Bold" !important;
+    font-weight: bold;
+    font-family: "night train 315" !important;
+}
+body {
+    background: rgb(204,204,204);
+}
+page {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    background: repeating-linear-gradient( 45deg, #039840, #039840 10px, #067332 10px, #067332 20px );
+}
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+page[size="B4"] {
+    width: 250mm;
+    height: 353mm;
+}
+page[size="A4"][layout="portrait"] {
+    width: 29.7cm;
+    height: 21cm;
+}
+.theqr {
+    width: 90px;
+}
+.libre-bold {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+.libre-reg {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+}
+.a4-size {
+    width: 595px;
+    height: 842px;
+    background: url("img/Group 31.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.qr-container {
+    width: 105px;
+    height: 105px;
+    border: 1px solid black;
+}
+p {
+    margin-bottom: 7.5px;
+}
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+header h3 {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+header h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+.duration {
+    padding: 7.5px;
+    border: 1px solid black;
+}
+.table td {
+    padding: 7.5px;
+}
+ol {
+    list-style-type: lower-alpha;
+}
+.green {
+    display: block;
+    height: 8px;
+    color: green;
+    width: 100%;
+    background: #00421B;
+    border-bottom: 2px solid #FFDE00;
+    margin-bottom: 5px;
+}
+.note {
+    font-size: 12px;
+}
+.nbk {
+    float: right;
+    height: 52px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}
+.exep {
+    color: #dc3545;
+}
+.danger-line {
+    background: repeating-linear-gradient( 45deg, #ff0101, #ff0101 10px, #dc3545 10px, #dc3545 20px );
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+.libre-it {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.locence-no {
+    background: #00ff3a59 !important;
+}
+.footer-container {
+    position: absolute;
+    bottom: 15px;
+    font-size: 8px;
+    position: absolute;
+    bottom: 15px;
+    font-size: 8px;
+    padding-top: 15px !important;
+}
+.the-seal {
+    width: 250px;
+    transform: rotate(15deg);
+}
+.serial-init {
+    font-family: "Flamante SemiSlab Medium", "Flamante SemiSlab Bold" !important;
+}
+.serial {
+    font-family: Roman !important;
+    font-family: ClementFivecleme !important;
+    font-weight: bold;
+}
+.font-22 {
+    font-size: 22px;
+}
+
+@media print {
+body, page {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: 0;
+    font-size: 18px;
+}
+.content-container {
+    width: 100%;
+    width: 250mm;
+    height: 353mm;
+    height: 353mm;
+}
+html, body {
+    width: 250mm !important;
+    height: 353mm !important;
+    background: white;
+}
+page[size="B4"] {
+    width: 248mm !important;
+    height: 351mm !important;
+    padding: 30mm 30mm 30mm 30mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh !important;
+    width: 100vw !important;
+}
+ol {
+    list-style-type: lower-alpha;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid black !important;
+}
+.table-striped tbody tr {
+    background: transparent !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05) !important;
+}
+.title-font {
+    font-size: 28px;
+}
+.font-22 {
+    font-size: 24px !important;
+}
+}
+@page {
+    width: 250mm;
+    height: 353mm;/*   margin: 30mm 30mm 30mm 30mm;*/
+}

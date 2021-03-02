@@ -1,0 +1,39 @@
+.slantMain {
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.noteSlant {
+  background: rgba(211, 211, 211, .15);
+  color: black;
+  position: relative;
+  z-index: 1;
+  right: 20px;
+  padding: 10px 10px 0 50px;
+  display: inline-block;
+  font-size: 0.75rem;
+}
+
+.tHead {
+  text-align: right;
+  color: black;
+  background: rgba(211, 211, 211, .15);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.kshHead {
+  background: rgba(32, 143, 74, 1);
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+  font-weight: 700;
+  white-space: nowrap;
+}

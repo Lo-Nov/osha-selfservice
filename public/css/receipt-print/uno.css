@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  fo
+}
+
+body {
+  margin: 0 auto;
+  position: relative;
+  background-color: gainsboro !important;
+  background-size: cover;
+  font-family: "Roboto Mono", monospace;
+  display: grid;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.topSpace, .endSpace {
+  position: relative;
+  /*padding-bottom: 30px;*/
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 5px 5px 30px 0px;
+  font-family: "Segoe UI";
+  font-size: 1.02rem;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.loop {
+  position: absolute;
+  top: -20px;
+  right: 6px;
+}
+
+.loop img {
+  width: 100%;
+}
+
+.main {
+  width: 800px;
+  background-color: white;
+  background-size: contain;
+  position: relative;
+  box-shadow: 0 6px 12px 5px rgba(0, 0, 0, 0.2), 0 6px 12px 5px rgba(0, 0, 0, 0.19);
+}
+
+.pl-50px {
+  padding-left: 50px !important;
+}
+
+.pr-50px {
+  padding-right: 50px !important;
+}
+
+.topBar {
+  position: relative;
+  background-image: url("../../img/receipt-images/Untitled2ex.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 50px 90px;
+  color: white;
+}
+
+.receipt {
+  text-transform: uppercase;
+  font-size: 2.2em;
+  font-weight: 600;
+  display: inline;
+  position: relative;
+  top: 20px;
+  /* padding-left: 35.6px; */
+}
+
+#receipt {
+  font-family: Aldrich;
+}
+
+.logo {
+  position: relative;
+  display: inline;
+  top: 20px;
+}
+
+.logo img {
+  width: 100%;
+  margin: 0;
+  border-radius: 50px;
+  position: relative;
+}
+
+.logoContent {
+  position: relative;
+  left: 15px;
+}
+
+.logoContent span {
+  font-size: 1.23rem;
+}
+
+.logoContent p {
+  font-size: 0.85rem;
+  position: relative;
+  top: 5px;
+}
+
+a .ion-md-print {
+  color: #418f4a;
+  font-size: 50px;
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  transition: transform 0.5s;
+}
+
+a:hover .ion-md-print {
+  transform: scale(1.2);
+}
+
+.12px{
+	font-size: 12px
+}

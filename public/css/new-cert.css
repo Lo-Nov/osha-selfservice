@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Norican&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap');
+
+table {border-collapse: collapse;
+}
+table td {padding: 0px}
+
+.html
+{
+	margin: 0px !important;
+}
+.position-absolute
+{
+	position: absolute;
+
+}
+.ci_1
+{
+	top:0.44in;
+
+	left:0.44in;
+
+	width:11.89in;
+
+
+
+}
+.ci_2
+{
+	top:0.44in;
+	left:0.44in;
+	width:11.89in;
+}
+.ri_1
+{
+	top:0.53in;
+	left:0.53in;
+	width:11.71in;
+}
+.ri_2
+{
+	top:0.70in;
+	left:0.70in;
+	width:2.84in;
+}
+
+.ci_3
+{
+	top:1.97in;
+	left:3.71in;
+	width:8.19in;
+
+}
+.ci_4
+{
+	top:2.04in;
+	left:3.71in;
+	width:8.19in;
+}
+.county_name
+{
+	top:0.73in;
+	left:3.71in;
+	width:6.24in;
+	font-size:37pt;
+
+}
+.text-font
+{
+	font-style:normal;
+
+	font-weight:normal;
+
+	
+	color:#212529;
+
+}
+.act
+{
+	top:1.51in;
+
+	left:3.71in;
+
+	width:7.66in;
+
+
+	font-size:20pt;
+
+	font-family:Libre Baskerville;
+
+}
+.ci_5
+{
+	top:2.13in;
+	left:3.71in;
+	width:0.18in;
+}
+.aw10
+{
+	top:2.23in;
+
+	left:11.28in;
+
+	width:0.70in;
+
+
+	font-size:15pt;
+
+	font-family:Aldrich;
+
+}
+.cert_title
+{
+	top:4.70in;
+
+	left:2.00in;
+
+	width:8.90in;
+
+
+	font-size:45pt;
+
+	font-family:Norican;
+
+}
+.form-d
+{
+	top:5.87in;
+	left:5.30in;
+	width:2.29in;
+	font-size:30pt;
+	font-family:Libre Baskerville;
+
+}
+.details
+{
+	top:7.06in;
+	left:0.80in;
+	width:4.25in;
+	font-size:15pt;
+	font-family:Fira Sans;
+
+}
+.client-name
+{
+	top:7.07in;
+	left:5.06in;
+	width:3.05in;
+	font-size:15pt;
+	font-family:Share Tech Mono;
+	color:#000000;
+}
+.underline
+{
+	text-decoration: underline;
+
+}
+.client-id
+{
+	top:7.07in;
+	left:8.12in;
+	width:3.25in;
+	font-size:15pt;
+	font-family:Share Tech Mono;
+	color:#000000;
+
+
+}
+.opinion
+{
+	top:7.53in;
+	left:0.80in;
+
+	font-size:15pt;
+	font-family:Fira Sans;
+	color:#212529;
+
+}
+.work
+{
+	top:7.98in;
+	left:0.80in;
+	width:0.96in;
+
+	font-size:15pt;
+	font-family:Fira Sans;
+	color:#212529
+}
+.company
+{
+	top:8.87in;
+	left:0.80in;
+	width:2.77in;
+
+}
+
+.normal-text
+{
+	font-style:normal;
+
+	font-weight:normal;
+
+	font-size:15pt;
+
+	font-family:Fira Sans;
+
+	color:#212529
+}
+
+.bold-text
+{
+	font-style:normal;
+
+	font-weight:bold;
+
+	font-size:15pt;
+
+	font-family:Fira Sans;
+
+	color:#212529
+}
+
+.examined
+{
+	top:10.16in;
+	left:0.80in;
+
+}
+
+.lab
+{
+	top:11.28in;
+	left:0.80in;
+	width:1.84in;
+
+}
+.sign
+{
+	top:12.71in;
+	left:0.80in;
+	width:0.60in;
+
+}
+.valid
+{
+	top:15.01in;
+	left:3.12in;
+	width:3.12in;
+
+}
+.expiry
+{
+	top:16.75in;
+	left:9.19in;
+	width:2.59in;
+
+}
+
+.medical
+{
+	top:13.14in;
+	left:0.80in;
+	width:2.91in;
+
+}
+.hall
+{
+	top:17.20in;
+	left:0.70in;
+	width:3.37in;
+
+}
+.footer-bold
+{
+	font-style:normal;
+
+	font-weight:bold;
+
+	font-size:10pt;
+
+	font-family:Fira Sans Condensed;
+
+	color:#212529
+}
+.governor
+{
+	top:17.20in;
+	left:6.58in;
+	width:5.28in;
+
+}
+
+.footer-text
+{
+	font-style:normal;
+	font-weight:bold;
+	font-size:10pt;
+	font-family:Fira Sans;
+	color:#212529
+}
+.ci_8
+{
+	top:7.28in;
+	left:8.12in;
+	width:1.48in;
+}
+.ri_3
+{
+	top:12.13in;
+	left:1.53in;
+	width:3.62in;
+}
+.ri_4
+{
+	top:8.83in;
+	left:6.42in;
+	width:2.41in;
+}
+.ri_5
+{
+	top:14.61in;
+	left:0.80in;
+	width:2.32in;
+}

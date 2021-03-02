@@ -1,0 +1,31 @@
+.print-receipt{
+    color: white;
+border: 50%;
+padding: 1rem;
+background: #fcc00e;
+position: fixed;
+bottom: 3rem;
+left: 3rem;
+z-index: 1000000000;
+border-radius: 50%;
+cursor: pointer;
+filter: drop-shadow(0px 4px 23px rgba(0, 67, 29, .65));
+transition-duration: .8s;
+
+}
+
+.print-receipt:hover{
+    filter: hue-rotate(45deg);
+}
+
+.print-receipt img{
+    height: 35px;
+}
+
+@media print { 
+ /* All your print styles go here */
+ .print-receipt{
+     display: none !important;
+ }
+
+}

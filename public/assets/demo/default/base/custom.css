@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+.m--font-brand {
+    color: #ff7e00 !important;
+}
+
+.m--font-danger, .danger{
+    color: red !important;
+}
+
+.m--font-success {
+    color: #00421b !important;
+}
+
+.m-widget14 .m-widget14__legend .m-widget14__legend-bullet, .danger, .safe {
+    width: 2rem;
+    height: .45rem;
+    display: inline-block;
+    border-radius: 1.1rem;
+    margin-bottom: .12rem;
+    margin-right: .8rem;
+}
+
+.danger
+{
+	background: red !important;
+}
+
+
+.safe {
+    background: #36a3f7 !important;
+}
+
+.display-none
+{
+	display: none !important;
+}
+
+.toggle-btn
+{
+	cursor: pointer;
+}
+.time-updated
+{
+	float: right;
+}
+.yellow
+{
+	background-color: #ffab00 !important;
+}
+.red
+{
+	background: #da0000 !important;
+}
+.red-color
+{
+	color: #da0000 !important;
+}
+.yellow-color
+{
+	color: #ffab00 !important;
+}
+
+.clumped-unclumped
+{
+	max-height: 80vh;
+    overflow-y: scroll;
+    background: white;
+	min-height: 60vh;
+}
+
+.unclump:before {
+    background: #ffab00 !important;
+}
+
+.clump:before {
+    background: #da0000 !important;
+}
+
+.m-widget14 .m-widget14__chart .m-widget14__stat {
+    font-size: 1.4rem;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.the-header .num
+{
+	float: right;
+    padding: 7px;
+   
+    color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.to-be-unclump a:hover
+{
+	text-decoration: none;
+}
+.to-be-clump a:hover
+{
+	text-decoration: none;
+}
+.to-be-unclump .num
+{
+	 background: #ffab00;
+}
+
+.to-be-clump .num
+{
+	 background: #da0000;
+}
+.top-3
+{
+	width: 100%;
+}
+.top-3 ul
+{
+	display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-flow: column;
+    width: 100%;
+}
+.top-3 ul li
+{
+	padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-3 ul li span:nth-child(2)
+{
+	font-weight: bold;
+}
+
+.active-border
+{
+	border:1px solid blue;
+}
+
+.m-aside-left--minimize .m-aside-menu .m-menu__nav>.m-menu__section .m-menu__section-text, . {
+    display: none;
+}
+
+.street-container
+{
+	display: none;
+}
+
+#m_ver_menu
+{
+/*	position: fixed;*/
+}
+

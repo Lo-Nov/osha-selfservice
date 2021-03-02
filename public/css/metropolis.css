@@ -1,0 +1,44 @@
+@font-face {
+font-family: "metropolisBlack";
+src: url("metropolis/Metropolis-Black.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisBold";
+src: url("metropolis/Metropolis-Bold.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisExtraBold";
+src: url("metropolis/Metropolis-ExtraBold.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisExtraLight";
+src: url("metropolis/Metropolis-ExtraLight.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisLight";
+src: url("metropolis/Metropolis-Light.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisMedium";
+src: url("metropolis/Metropolis-Medium.otf") format("woff");
+}
+
+@font-face {
+font-family: "metropolisRegular";
+src: url("metropolis/Metropolis-Regular.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisSemiBold";
+src: url("metropolis/Metropolis-SemiBold.otf") format("woff");
+}
+	
+@font-face {
+font-family: "metropolisThin";
+src: url("metropolis/Metropolis-Thin.otf") format("woff");
+}

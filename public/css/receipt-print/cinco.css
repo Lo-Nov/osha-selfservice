@@ -1,0 +1,148 @@
+.bill {
+  padding: 0 50px;
+}
+
+.billNo {
+  font-family: "Aldrich";
+}
+
+.footer {
+  border-top: 1px solid rgba(228, 233, 237, 1);
+  position: relative;
+  padding: 0 50px !important;
+  overflow-x: hidden;
+}
+
+.footerLogo {
+  display: inline-flex;
+}
+
+.footerRight img {
+  width: 35%;
+  position: relative;
+  top: 10px;
+}
+
+.footerRight {
+  position: relative;
+  overflow-x: hidden;
+  text-align: right;
+}
+
+.todayis{
+	display: none;
+}
+
+.footerRight p span {
+  position: relative;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  right: 10px;
+  top: 10px;
+}
+
+.footerLogo a {
+  text-decoration: none;
+  color: #208F4A;
+  font-size: 0.85rem;
+  display: grid;
+  align-items: center;
+}
+
+.footerLogo a:hover {
+  text-decoration: underline;
+  color: #208F4A;
+}
+
+.footerLogo a:active {
+  opacity: 0.8;
+}
+
+@media print {
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+
+  .noPrint {
+    display: none;
+  }
+
+  .topBar {
+    padding-top: 10px;
+  }
+
+  .main {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .slantMain {
+    padding-bottom: 55%;
+  }
+
+  .sec1 {
+    padding: 30px 0;
+  }
+
+  .footerRight img {
+    width: 25%;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+	.interSec {
+    /* background-color: #f8f9fa; */
+    position: relative;
+    /* color: white; */
+    padding-top: 15.5px;
+    border-bottom: 3px solid;
+    /* border-top: 1px solid; */
+    border-color: #333;
+    margin-right: 50px;
+    margin-left: 51px;
+		background-color: #208f4a00;
+    position: relative;
+    color: rgba(12,12,12,0.8);
+}
+	.interSecContent p {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+	.kshHead {
+    background: #e9ecef;
+    color: #333;
+    text-transform: uppercase;
+     font-size: 16px; 
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+    font-weight: 700;
+    white-space: nowrap;
+}
+	.tHead {
+    text-align: right;
+    color: black;
+    background: rgba(211, 211, 211, .15);
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+	.topBar{
+		background-image:url("Images/gray-bg.png");
+		color: #495057;
+	}
+	
+	.todayis{
+		display: block;
+	}
+	
+	
+}

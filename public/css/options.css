@@ -1,0 +1,134 @@
+body {
+  padding-top: 0;
+  padding-bottom: 3em;
+}
+
+.top {
+  width: 100%;
+  background: url("bg/bg.jpg");
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.top section {
+  width: 100%;
+}
+
+.top .top-container {
+  padding: 32px;
+  margin: 0px;
+}
+
+.top .row h2 {
+  color: white;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 16px;
+  margin: 0px;
+}
+
+.download-container span {
+  display: flex;
+  padding: 16px;
+  background: black;
+  color: white;
+  flex-flow: column;
+  border-radius: 10px;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 300px;
+  color: white;
+}
+
+.download-container span .download-app {
+  display: flex;
+  align-items: center;
+}
+
+.download-app img {
+  height: 40px;
+}
+
+.download-app p {
+  margin: 0px;
+  margin-left: 15px;
+}
+
+#service-options {
+  text-align: center;
+}
+
+
+
+.source-container, .options-container{
+  background: none;
+}
+
+.option1 {
+  margin: 1em .5em;
+  border: 1px solid #00000025;
+  -moz-box-shadow: 0 0 15px 3px rgba(204, 204, 204, 0.5);
+  -webkit-box-shadow: 0 0 15px 3px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 15px 3px rgba(204, 204, 204, 0.5);
+  padding: 1em 1.5em;
+  text-align: center;
+  min-height: 250px;
+  transition: transform .5s;
+}
+
+.option1:hover {
+  transform: scale(1.05);
+  -moz-box-shadow: 0 0 20px 5px rgba(204, 204, 204, 0.5);
+  -webkit-box-shadow: 0 0 20px 5px rgba(204, 204, 204, 0.5);
+  box-shadow: 0 0 20px 5px rgba(204, 204, 204, 0.5);
+  transition: transform .5s;
+}
+
+.option1 img {
+  height: 80px;
+}
+
+.option1 p {
+  font-size: .9em;
+}
+
+.modal-header {
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body {
+  margin: 5em 0;
+  padding: 2em 3em;
+  background: #F8F3F0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-body .btn-green {
+  padding: 2em 1em;
+  margin: 1em;
+  width: 160px;
+}
+
+.nextArrowBtn {
+  position: absolute;
+  z-index: 1000;
+  top: 44%;
+  right: 10px;
+  color: black;
+  font-size: 1.5em;
+}
+
+.prevArrowBtn {
+  position: absolute;
+  z-index: 1000;
+  top: 44%;
+  left: 10px;
+  color: black;
+  font-size: 1.5em;
+}

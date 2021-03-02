@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  transition: all ease-in 0.5s;
+}
+
+nav {
+  padding: 16px;
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  background-color: #00431e;
+  color: white;
+}
+
+body {
+  background: #f5f6fa;
+}
+
+.menu-items {
+  position: fixed;
+  top: 0;
+  min-height: 100vh;
+  background: white;
+  z-index: 100;
+}
+
+.navbar-nav img, .navbar-nav svg {
+  height: 32px;
+  fill: white;
+}
+
+.logo .navbar-nav img {
+  height: 80px;
+}
+
+.navbar-expand ul {
+  padding: 0px;
+  padding-top: 1em;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  color: dimgray !important;
+}
+
+.navbar-expand ul li {
+  display: flex;
+  list-style: none;
+  padding: 3px;
+}
+
+.main-navigation {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.toogle-menu-container {
+  margin: 0px;
+  color: black;
+  fill: black;
+  padding: 0px;
+  float: left;
+  position: relative;
+  float: left;
+}
+
+.toogle-menu-container ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.toogle-menu-container .links-container li, .sub-menu-container .sub-menu li {
+  padding: 16px;
+  list-style: none;
+  padding: 10px 10px;
+  border-left: 4px solid transparent;
+  padding-right: 25px;
+}
+
+.toogle-menu-container .links-container li a, .sub-menu-container .sub-menu li a {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  color: black !important;
+  cursor: pointer;
+  transition: all ease-in ease-out 1s
+}
+
+.toogle-menu-container svg {
+  fill: black;
+  margin-right: 20px;
+  height: 25px;
+  margin-left: 16px;
+}
+
+.active-revenue, .toogle-menu-container .links-container li:hover {
+  color: black !important;
+  font-weight: 600;
+  fill: #edc01f;
+  border-left: 4px solid #edc01f !important;
+}
+
+.active-revenu {
+  background: #00431e0d;
+}
+
+.active-revenue svg, .toogle-menu-container ul li:hover svg {
+  fill: #edc01f;
+}
+
+.menu-items nav {
+  background: white;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.sub-menu-container {
+  position: fixed;
+  top: 0;
+  width: 257px;
+  min-height: 100vh;
+  background: white;
+  z-index: 100;
+}
+
+.sub-menu-container .sub-menu li {
+  border: none;
+  padding-left: 20px;
+}
+
+.sub-menu-container .sub-menu li:hover {
+  color: #edc01f !important;
+  background: black;
+}
+
+.sub-menu-container .sub-menu li a:hover {
+  color: #edc01f !important;
+}
+
+.link-header {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 16px;
+  background: #8080802b;
+  list-style: none;
+}
+
+.sub-menu-container .navbar-expand {
+  height: 86px;
+  background: #f5f5f5;
+}
+
+/*.left {
+  left: -100%;
+}*/
+
+.head-links li {
+  color: white;
+}

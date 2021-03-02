@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  /* background: #fdf1e0;	*/
+}
+
+.transactions-container h2 {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  padding-left: 16px;
+  border-bottom: solid 1px #00000026;
+  padding: 16px;
+  margin: 0px;
+}
+
+.history-container {
+  display: flex;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+  flex-flow: column;
+  margin: 1em auto 2em;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.history-container ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.history-container ul li {
+  list-style: none;
+}
+
+.transactions-container {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #0000003d;
+}
+
+.single-transaction {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #1982401c;
+  cursor: pointer;
+  flex-flow: column;
+	white-space: nowrap;
+}
+
+.main-transaction-container {
+  padding: 16px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-left: solid 4px transparent;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main-transaction-container:nth-child(odd):hover {
+ border-left: 4px solid #198240;
+}
+
+.single-transaction:nth-child(even) {
+  background: white;
+}
+
+.main-transaction-container:nth-child(even):hover {
+  border-left: solid 4px #2da656;
+}
+
+.main-transaction-container:hover {
+  background:#e7f6eb;
+}
+
+.main-transaction-container div {
+  margin: 0px 16px;
+  display: flex;
+  text-transform: capitalize;
+}
+
+.single-transaction div ul {
+  display: flex;
+  flex-flow: column;
+}
+
+.single-transaction div ul:last-child {
+  
+/*  font-weight: 400;*/
+  text-transform: none;
+}
+
+.single-transaction div ul:first-child {
+/*  font-size: 0.8125rem;*/
+}
+
+.single-transaction span {
+  display: flex;
+  }
+
+.single-transaction .date {
+  color: black;
+    text-transform: uppercase;
+    width: 8.33333333%;
+    font-size: 14px;
+    /* line-height: 1.5rem; */
+    
+    color: #2c2e2f;
+    text-overflow: ellipsis;
+}
+
+.single-transaction .date li:first-child, .type-of-transaction li:first-child, .transaction-amount{
+	font-weight: 600;
+}
+
+.transaction-more-details {
+  border: 1px solid lightgray;
+  padding: 16px;
+  display: block;
+  border-left: solid 4px #22934a;
+  position: relative;
+  background: white;
+  margin: 0px !important;
+  display: none;
+}
+
+.display-flex {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.transaction-more-details>div {
+  padding-left: 16px;
+
+  text-transform: capitalize;
+  padding: 16px;
+
+}
+
+.transaction-more-details ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.transaction-more-details ul li {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.transaction-more-details ul li:nth-child(odd) {
+  font-weight: bold;
+}
+
+.transaction-info li:last-child {
+  font-weight: 400 !important;
+  border-top: 1px solid black;
+  padding-top: 7px;
+}
+
+.print-details, .report {
+  padding-top: 20px;
+  font-weight: bold;
+  color: lightslategray;
+  fill: lightslategray;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  align-content: center;
+	
+}
+
+.report{
+	display: none;
+}
+
+.print-details:hover, .report:hover {
+  color: black;
+  fill: black;
+}
+
+.print-details svg, .report svg {
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
+}
+
+.active-transaction {
+  border: 1px solid lightgray;
+  border-left: solid 4px #2da656 !important;
+  border-bottom: 1px solid transparent;
+}
+
+.close-panel-container {
+  display: flex;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+	z-index: 10;
+}
+
+.main-navigation {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+form input {
+  padding: 7px 15px;
+  border: 1px solid #00000057;
+}
+
+form {
+  margin-top: 16px;
+}
+
+form input[type="submit"] {
+  background: #f57d30;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1025px) {
+  .history-container {
+    padding: 1em 10%;
+  }
+ 
+}
